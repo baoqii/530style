@@ -1,6 +1,6 @@
 import { topImages } from "../../util/import-top-imgs";
 
-export const topData = [
+const topData = [
   {
     name: "Thin Fit Milk Button T-Shirt",
     id: "thin-fit-milk-button-t-shirt",
@@ -8,7 +8,9 @@ export const topData = [
     price: 21.31,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       topImages.thinFitMilkButtonTShirt1,
@@ -23,7 +25,9 @@ export const topData = [
     price: 18.83,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       topImages.contouringSquareSlimTShirt1,
@@ -39,7 +43,9 @@ export const topData = [
     price: 25.51,
     onSale: false,
     inStock: false,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       topImages.thinFitSilkyMoodBlouse1,
@@ -54,7 +60,9 @@ export const topData = [
     price: 22.26,
     onSale: true,
     inStock: true,
-    salesPrice: this.price - this.price * 0.2,
+    salesPrice: function () {
+      return (this.price - this.price * 0.2).toFixed(2);
+    },
     description: "",
     Gallery: [
       topImages.harvardWoolCableKnit1,
@@ -69,7 +77,9 @@ export const topData = [
     price: 24.74,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       topImages.blushSemiCropCableKnit1,
@@ -85,7 +95,9 @@ export const topData = [
     price: 28.25,
     onSale: false,
     inStock: false,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       topImages.denseToughFitVNeckKnitwear1,
@@ -101,7 +113,9 @@ export const topData = [
     price: 27.39,
     onSale: false,
     inStock: false,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       topImages.allNightRobeKnitwear1,
@@ -116,7 +130,9 @@ export const topData = [
     price: 19.6,
     onSale: true,
     inStock: true,
-    salesPrice: this.price - this.price * 0.1,
+    salesPrice: function () {
+      return (this.price - this.price * 0.1).toFixed(2);
+    },
     description: "",
     Gallery: [
       topImages.edenWoolVKnitVest1,
@@ -131,7 +147,9 @@ export const topData = [
     price: 25.51,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       topImages.tantanFitUNeckKnitVest1,
@@ -147,7 +165,9 @@ export const topData = [
     price: 23.88,
     onSale: false,
     inStock: false,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       topImages.tantanFitCableKnitVest1,
@@ -163,7 +183,9 @@ export const topData = [
     price: 26.54,
     onSale: true,
     inStock: true,
-    salesPrice: this.price - this.price * 0.15,
+    salesPrice: function () {
+      return (this.price - this.price * 0.15).toFixed(2);
+    },
     description: "",
     Gallery: [
       topImages.earlsBoatNeckKnitSleeveless1,
@@ -179,7 +201,9 @@ export const topData = [
     price: 16.95,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       topImages.summerCableKnitVest1,
@@ -188,3 +212,5 @@ export const topData = [
     ],
   },
 ];
+
+export default topData;

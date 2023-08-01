@@ -1,6 +1,6 @@
 import { outerwearImages } from "../../util/import-outerwear-imgs";
 
-export const outerwearData = [
+const outerwearData = [
   {
     name: "Again Handmade Single Robe Coat",
     id: "again-handmade-single-robe-coat",
@@ -8,7 +8,9 @@ export const outerwearData = [
     price: 143.81,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       outerwearImages.againHandmadeSingleRobeCoat1,
@@ -24,7 +26,9 @@ export const outerwearData = [
     price: 75.33,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       outerwearImages.moodGreenVintageNavyBomberJacket1,
@@ -39,7 +43,9 @@ export const outerwearData = [
     price: 36.81,
     onSale: false,
     inStock: false,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       outerwearImages.windbreakerStringBlouse1,
@@ -56,7 +62,9 @@ export const outerwearData = [
     price: 49.56,
     onSale: true,
     inStock: true,
-    salesPrice: this.price - this.price * 0.2,
+    salesPrice: function () {
+      return (this.price - this.price * 0.2).toFixed(2);
+    },
     description: "",
     Gallery: [
       outerwearImages.minimalNormcoreSummerBlouson1,
@@ -71,7 +79,9 @@ export const outerwearData = [
     price: 26.54,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       outerwearImages.thinFitSummerLinenHoodie1,
@@ -90,7 +100,9 @@ export const outerwearData = [
     price: 17.03,
     onSale: false,
     inStock: false,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       outerwearImages.mockSummerDailyBomberJacket1,
@@ -105,7 +117,9 @@ export const outerwearData = [
     price: 23.03,
     onSale: false,
     inStock: false,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       outerwearImages.harvCardiganSleevelessSet1,
@@ -121,7 +135,9 @@ export const outerwearData = [
     price: 26.54,
     onSale: true,
     inStock: true,
-    salesPrice: this.price - this.price * 0.1,
+    salesPrice: function () {
+      return (this.price - this.price * 0.1).toFixed(2);
+    },
     description: "",
     Gallery: [
       outerwearImages.waySlimFitSummerCardigan1,
@@ -138,7 +154,9 @@ export const outerwearData = [
     price: 24.74,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       outerwearImages.summerVNeckCardigan1,
@@ -154,7 +172,9 @@ export const outerwearData = [
     price: 30.73,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       outerwearImages.nineCardiganSleevelessSet1,
@@ -169,7 +189,9 @@ export const outerwearData = [
     price: 37.66,
     onSale: false,
     inStock: false,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       outerwearImages.rayStripeHalfJacket1,
@@ -185,7 +207,9 @@ export const outerwearData = [
     price: 56.5,
     onSale: true,
     inStock: true,
-    salesPrice: this.price - this.price * 0.15,
+    salesPrice: function () {
+      return (this.price - this.price * 0.15).toFixed(2);
+    },
     description: "",
     Gallery: [
       outerwearImages.rittenSummerLinenJacket1,
@@ -201,7 +225,9 @@ export const outerwearData = [
     price: 41.94,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       outerwearImages.toneOatGreyHalfJacket1,
@@ -218,7 +244,9 @@ export const outerwearData = [
     price: 66.77,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       outerwearImages.nortonThinFitShortTrenchCoat1,
@@ -229,3 +257,5 @@ export const outerwearData = [
     ],
   },
 ];
+
+export default outerwearData;

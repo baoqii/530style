@@ -1,6 +1,6 @@
 import { dressImages } from "../../util/import-dress-imgs";
 
-export const dressData = [
+const dressData = [
   {
     name: "Brown Fine Check Dress",
     id: "brown-fine-check-dress",
@@ -8,7 +8,9 @@ export const dressData = [
     price: 35.95,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       dressImages.brownFineCheckDress1,
@@ -25,7 +27,9 @@ export const dressData = [
     price: 31.67,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       dressImages.bustierOverallPintuckDress1,
@@ -42,7 +46,9 @@ export const dressData = [
     price: 25.51,
     onSale: false,
     inStock: false,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       dressImages.twoWayButtonBustierLongDress1,
@@ -58,7 +64,9 @@ export const dressData = [
     price: 50.5,
     onSale: true,
     inStock: true,
-    salesPrice: this.price - this.price * 0.2,
+    salesPrice: function () {
+      return (this.price - this.price * 0.2).toFixed(2);
+    },
     description: "",
     Gallery: [
       dressImages.urbanRawDenimDress1,
@@ -74,7 +82,9 @@ export const dressData = [
     price: 21.31,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       dressImages.doveFlareLongMiniSkirt1,
@@ -90,7 +100,9 @@ export const dressData = [
     price: 30.82,
     onSale: false,
     inStock: false,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       dressImages.daliTantanFitPintuckSkirt1,
@@ -106,7 +118,9 @@ export const dressData = [
     price: 28.25,
     onSale: false,
     inStock: false,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       dressImages.pocheBeigeDyingSkirt1,
@@ -122,7 +136,9 @@ export const dressData = [
     price: 23.88,
     onSale: true,
     inStock: true,
-    salesPrice: this.price - this.price * 0.1,
+    salesPrice: function () {
+      return (this.price - this.price * 0.1).toFixed(2);
+    },
     description: "",
     Gallery: [
       dressImages.toneOatGreyMiniskirt1,
@@ -139,7 +155,9 @@ export const dressData = [
     price: 23.03,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       dressImages.behindTheScenesLinenSkirt1,
@@ -155,7 +173,9 @@ export const dressData = [
     price: 16.95,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       dressImages.beltSetMiniCargoSkirt1,
@@ -172,7 +192,9 @@ export const dressData = [
     price: 25.51,
     onSale: false,
     inStock: false,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       dressImages.growSolidNaturalDenimSkirt1,
@@ -188,7 +210,9 @@ export const dressData = [
     price: 31.59,
     onSale: true,
     inStock: true,
-    salesPrice: this.price - this.price * 0.15,
+    salesPrice: function () {
+      return (this.price - this.price * 0.15).toFixed(2);
+    },
     description: "",
     Gallery: [
       dressImages.mellowStripedHoolSkirt1,
@@ -204,7 +228,9 @@ export const dressData = [
     price: 35.95,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       dressImages.pikaPinTuckCottonLongSkirt1,
@@ -214,3 +240,5 @@ export const dressData = [
     ],
   },
 ];
+
+export default dressData;

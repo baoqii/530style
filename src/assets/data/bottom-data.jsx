@@ -1,6 +1,6 @@
 import { bottomImages } from "../../util/import-bottom-imgs";
 
-export const bottomData = [
+const bottomData = [
   {
     name: "Move Vintage Tone Denim Shorts",
     id: "move-vintage-tone-denim-shorts",
@@ -8,7 +8,9 @@ export const bottomData = [
     price: 21.31,
     onSale: true,
     inStock: true,
-    salesPrice: this.price - this.price * 0.2,
+    salesPrice: function () {
+      return (this.price - this.price * 0.2).toFixed(2);
+    },
     description: "",
     Gallery: [
       bottomImages.moveVintageToneDenimShorts1,
@@ -24,7 +26,9 @@ export const bottomData = [
     price: 26.54,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       bottomImages.toneDownMediumDenimHalfPants1,
@@ -40,7 +44,9 @@ export const bottomData = [
     price: 23.88,
     onSale: false,
     inStock: false,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       bottomImages.aceLongFitSummerTrackPants1,
@@ -56,7 +62,9 @@ export const bottomData = [
     price: 34.07,
     onSale: true,
     inStock: true,
-    salesPrice: this.price - this.price * 0.2,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       bottomImages.vintagePintuckWideMediumDenimPants1,
@@ -72,7 +80,9 @@ export const bottomData = [
     price: 26.54,
     onSale: false,
     inStock: true,
-    salesPrice: this.price,
+    salesPrice: function () {
+      return this.price;
+    },
     description: "",
     Gallery: [
       bottomImages.pintTightFitSaintDenimShorts1,
@@ -82,3 +92,5 @@ export const bottomData = [
     ],
   },
 ];
+
+export default bottomData;
