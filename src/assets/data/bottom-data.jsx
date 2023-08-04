@@ -87,7 +87,7 @@ const bottomData = [
       bottomImages.pintTightFitSaintDenimShorts1,
       bottomImages.pintTightFitSaintDenimShorts2,
       bottomImages.pintTightFitSaintDenimShorts3,
-      bottomImages.pintTightFitSaintDenimShorts4pintTightFitSaintDenimShorts4,
+      bottomImages.pintTightFitSaintDenimShorts4,
     ],
   },
 ];
