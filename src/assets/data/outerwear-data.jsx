@@ -215,7 +215,7 @@ const outerwearData = [
       outerwearImages.rittenSummerLinenJacket1,
       outerwearImages.rittenSummerLinenJacket2,
       outerwearImages.rittenSummerLinenJacket3,
-      outerwearImages.rittenSummerLinenJacket14,
+      outerwearImages.rittenSummerLinenJacket4,
     ],
   },
   {
