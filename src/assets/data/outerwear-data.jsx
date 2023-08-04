@@ -4,7 +4,7 @@ const outerwearData = [
   {
     name: "Again Handmade Single Robe Coat",
     id: "again-handmade-single-robe-coat",
-    category: "outerwear",
+    category: "Outerwear",
     price: 143.81,
     onSale: false,
     inStock: true,
@@ -22,7 +22,7 @@ const outerwearData = [
   {
     name: "Mood Green Vintage Navy Bomber Jacket",
     id: "mood-green-vintage-navy-bomber-jacket",
-    category: "outerwear",
+    category: "Outerwear",
     price: 75.33,
     onSale: false,
     inStock: true,
@@ -39,7 +39,7 @@ const outerwearData = [
   {
     name: "Windbreaker String Blouse",
     id: "windbreaker-string-blouse",
-    category: "outerwear",
+    category: "Outerwear",
     price: 36.81,
     onSale: false,
     inStock: false,
@@ -58,7 +58,7 @@ const outerwearData = [
   {
     name: "Minimal Normcore Summer Blouson",
     id: "minimal-normcore-summer-blouson",
-    category: "outerwear",
+    category: "Outerwear",
     price: 49.56,
     onSale: true,
     inStock: true,
@@ -75,7 +75,7 @@ const outerwearData = [
   {
     name: "Thin Fit Summer Linen Hoodie",
     id: "thin-fit-summer-linen-hoodie",
-    category: "outerwear",
+    category: "Outerwear",
     price: 26.54,
     onSale: false,
     inStock: true,
@@ -96,7 +96,7 @@ const outerwearData = [
   {
     name: "Mock Summer Daily Bomber Jacket",
     id: "mock-summer-daily-bomber-jacket",
-    category: "outerwear",
+    category: "Outerwear",
     price: 17.03,
     onSale: false,
     inStock: false,
@@ -113,7 +113,7 @@ const outerwearData = [
   {
     name: "Harv Cardigan Sleeveless Set",
     id: "harv-cardigan-sleeveless-set",
-    category: "outerwear",
+    category: "Outerwear",
     price: 23.03,
     onSale: false,
     inStock: false,
@@ -131,7 +131,7 @@ const outerwearData = [
   {
     name: "Way Slim Fit Summer Cardigan",
     id: "way-slim-fit-summer-cardigan",
-    category: "outerwear",
+    category: "Outerwear",
     price: 26.54,
     onSale: true,
     inStock: true,
@@ -150,7 +150,7 @@ const outerwearData = [
   {
     name: "Summer V Neck Cardigan",
     id: "summer-v-neck-cardigan",
-    category: "outerwear",
+    category: "Outerwear",
     price: 24.74,
     onSale: false,
     inStock: true,
@@ -168,7 +168,7 @@ const outerwearData = [
   {
     name: "Nine Cardigan Sleeveless Set",
     id: "nine-cardigan-sleeveless-set",
-    category: "outerwear",
+    category: "Outerwear",
     price: 30.73,
     onSale: false,
     inStock: true,
@@ -185,7 +185,7 @@ const outerwearData = [
   {
     name: "Ray Stripe Half Jacket",
     id: "ray-stripe-half-jacket",
-    category: "outerwear",
+    category: "Outerwear",
     price: 37.66,
     onSale: false,
     inStock: false,
@@ -203,7 +203,7 @@ const outerwearData = [
   {
     name: "Ritten Summer Linen Jacket",
     id: "ritten-summer-linen-jacket",
-    category: "outerwear",
+    category: "Outerwear",
     price: 56.5,
     onSale: true,
     inStock: true,
@@ -221,7 +221,7 @@ const outerwearData = [
   {
     name: "Tone Oat Grey Half Jacket",
     id: "tone-oat-grey-half-jacket",
-    category: "outerwear",
+    category: "Outerwear",
     price: 41.94,
     onSale: false,
     inStock: true,
@@ -240,7 +240,7 @@ const outerwearData = [
   {
     name: "Norton Thin Fit Short Trench Coat",
     id: "norton-thin-fit-short-trench-coat",
-    category: "outerwear",
+    category: "Outerwear",
     price: 66.77,
     onSale: false,
     inStock: true,

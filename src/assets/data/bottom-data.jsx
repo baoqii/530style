@@ -4,7 +4,7 @@ const bottomData = [
   {
     name: "Move Vintage Tone Denim Shorts",
     id: "move-vintage-tone-denim-shorts",
-    category: "bottom",
+    category: "Bottom",
     price: 21.31,
     onSale: true,
     inStock: true,
@@ -22,7 +22,7 @@ const bottomData = [
   {
     name: "Tone Down Medium Denim Half Pants",
     id: "tone-down-medium-denim-half-pants",
-    category: "bottom",
+    category: "Bottom",
     price: 26.54,
     onSale: false,
     inStock: true,
@@ -40,7 +40,7 @@ const bottomData = [
   {
     name: "Ace Long Fit Summer Track Pants",
     id: "ace-long-fit-summer-track-pants",
-    category: "bottom",
+    category: "Bottom",
     price: 23.88,
     onSale: false,
     inStock: false,
@@ -58,7 +58,7 @@ const bottomData = [
   {
     name: "Vintage Pintuck Wide Medium Denim Pants",
     id: "vintage-pintuck-wide-medium-denim-pants",
-    category: "bottom",
+    category: "Bottom",
     price: 34.07,
     onSale: true,
     inStock: true,
@@ -76,7 +76,7 @@ const bottomData = [
   {
     name: "Pint Tight Fit Saint Denim Shorts",
     id: "pint-tight-fit-saint-denim-shorts",
-    category: "bottom",
+    category: "Bottom",
     price: 26.54,
     onSale: false,
     inStock: true,

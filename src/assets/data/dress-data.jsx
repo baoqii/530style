@@ -4,7 +4,7 @@ const dressData = [
   {
     name: "Brown Fine Check Dress",
     id: "brown-fine-check-dress",
-    category: "dress",
+    category: "Dress",
     price: 35.95,
     onSale: false,
     inStock: true,
@@ -23,7 +23,7 @@ const dressData = [
   {
     name: "Bustier Overall Pintuck Dress",
     id: "bustier-overall-pintuck-dress",
-    category: "dress",
+    category: "Dress",
     price: 31.67,
     onSale: false,
     inStock: true,
@@ -42,7 +42,7 @@ const dressData = [
   {
     name: "Two Way Button Bustier Long Dress",
     id: "two-way-button-bustier-long-dress",
-    category: "dress",
+    category: "Dress",
     price: 25.51,
     onSale: false,
     inStock: false,
@@ -60,7 +60,7 @@ const dressData = [
   {
     name: "Urban Raw Denim Dress",
     id: "urban-raw-denim-dress",
-    category: "dress",
+    category: "Dress",
     price: 50.5,
     onSale: true,
     inStock: true,
@@ -78,7 +78,7 @@ const dressData = [
   {
     name: "Dove Flare Long Mini Skirt",
     id: "dove-flare-long-mini-skirt",
-    category: "dress",
+    category: "Dress",
     price: 21.31,
     onSale: false,
     inStock: true,
@@ -96,7 +96,7 @@ const dressData = [
   {
     name: "Dali Tantan Fit Pintuck Skirt",
     id: "dali-tantan-fit-pintuck-skirt",
-    category: "dress",
+    category: "Dress",
     price: 30.82,
     onSale: false,
     inStock: false,
@@ -114,7 +114,7 @@ const dressData = [
   {
     name: "Poche Beige Dying Skirt",
     id: "poche-beige-dying-skirt",
-    category: "dress",
+    category: "Dress",
     price: 28.25,
     onSale: false,
     inStock: false,
@@ -132,7 +132,7 @@ const dressData = [
   {
     name: "Tone Oat Grey Miniskirt",
     id: "tone-oat-grey-miniskirt",
-    category: "dress",
+    category: "Dress",
     price: 23.88,
     onSale: true,
     inStock: true,
@@ -151,7 +151,7 @@ const dressData = [
   {
     name: "Behind The Scenes Linen Skirt",
     id: "behind-the-scenes-linen-skirt",
-    category: "dress",
+    category: "Dress",
     price: 23.03,
     onSale: false,
     inStock: true,
@@ -169,7 +169,7 @@ const dressData = [
   {
     name: "Belt Set Mini Cargo Skirt",
     id: "belt-set-mini-cargo-skirt",
-    category: "dress",
+    category: "Dress",
     price: 16.95,
     onSale: false,
     inStock: true,
@@ -188,7 +188,7 @@ const dressData = [
   {
     name: "Grow Solid Natural Denim Skirt",
     id: "grow-solid-natural-denim-skirt",
-    category: "dress",
+    category: "Dress",
     price: 25.51,
     onSale: false,
     inStock: false,
@@ -206,7 +206,7 @@ const dressData = [
   {
     name: "Mellow Striped Hool Skirt",
     id: "mellow-striped-hool-skirt",
-    category: "dress",
+    category: "Dress",
     price: 31.59,
     onSale: true,
     inStock: true,
@@ -224,7 +224,7 @@ const dressData = [
   {
     name: "Pika Pin Tuck Cotton Long Skirt",
     id: "pika-pin-tuck-cotton-long-skirt",
-    category: "dress",
+    category: "Dress",
     price: 35.95,
     onSale: false,
     inStock: true,

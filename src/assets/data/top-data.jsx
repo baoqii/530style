@@ -4,7 +4,7 @@ const topData = [
   {
     name: "Thin Fit Milk Button T-Shirt",
     id: "thin-fit-milk-button-t-shirt",
-    category: "top",
+    category: "Top",
     price: 21.31,
     onSale: false,
     inStock: true,
@@ -21,7 +21,7 @@ const topData = [
   {
     name: "Contouring Square Slim T-Shirt",
     id: "contouring-square-slim-t-shirt",
-    category: "top",
+    category: "Top",
     price: 18.83,
     onSale: false,
     inStock: true,
@@ -39,7 +39,7 @@ const topData = [
   {
     name: "Thin Fit Silky Mood Blouse",
     id: "thin-fit-silky-mood-blouse",
-    category: "top",
+    category: "Top",
     price: 25.51,
     onSale: false,
     inStock: false,
@@ -56,7 +56,7 @@ const topData = [
   {
     name: "Harvard Wool Cable Knit",
     id: "harvard-wool-cable-knit",
-    category: "top",
+    category: "Top",
     price: 22.26,
     onSale: true,
     inStock: true,
@@ -73,7 +73,7 @@ const topData = [
   {
     name: "Blush Semi Crop Cable Knit",
     id: "blush-semi-crop-cable-knit",
-    category: "top",
+    category: "Top",
     price: 24.74,
     onSale: false,
     inStock: true,
@@ -91,7 +91,7 @@ const topData = [
   {
     name: "Dense Tough Fit V Neck Knitwear",
     id: "dense-tough-fit-v-neck-knitwear",
-    category: "top",
+    category: "Top",
     price: 28.25,
     onSale: false,
     inStock: false,
@@ -109,7 +109,7 @@ const topData = [
   {
     name: "All Night Robe Knitwear",
     id: "all-night-robe-knitwear",
-    category: "top",
+    category: "Top",
     price: 27.39,
     onSale: false,
     inStock: false,
@@ -126,7 +126,7 @@ const topData = [
   {
     name: "Eden Wool V Knit West",
     id: "eden-wool-v-knit-vest",
-    category: "top",
+    category: "Top",
     price: 19.6,
     onSale: true,
     inStock: true,
@@ -143,7 +143,7 @@ const topData = [
   {
     name: "Tantan Fit U Neck Knit Vest",
     id: "tantan-fit-u-neck-knit-vest",
-    category: "top",
+    category: "Top",
     price: 25.51,
     onSale: false,
     inStock: true,
@@ -161,7 +161,7 @@ const topData = [
   {
     name: "Tantan Fit Cable Knit Vest",
     id: "tantan-fit-cable-knit-vest",
-    category: "top",
+    category: "Top",
     price: 23.88,
     onSale: false,
     inStock: false,
@@ -179,7 +179,7 @@ const topData = [
   {
     name: "Earls Boat Neck Knit Sleeveless",
     id: "earls-boat-neck-knit-sleeveless",
-    category: "top",
+    category: "Top",
     price: 26.54,
     onSale: true,
     inStock: true,
@@ -197,7 +197,7 @@ const topData = [
   {
     name: "Summer Cable Knit Vest",
     id: "summer-cable-knit-vest",
-    category: "top",
+    category: "Top",
     price: 16.95,
     onSale: false,
     inStock: true,
