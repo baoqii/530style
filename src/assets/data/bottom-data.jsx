@@ -52,7 +52,6 @@ const bottomData = [
       bottomImages.aceLongFitSummerTrackPants1,
       bottomImages.aceLongFitSummerTrackPants2,
       bottomImages.aceLongFitSummerTrackPants3,
-      bottomImages.aceLongFitSummerTrackPants4,
     ],
   },
   {
