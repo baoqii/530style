@@ -11,7 +11,8 @@ const outerwearData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description:
+      "Who likes light yet warm handmade fabric. The one who avoided heavy machine coats. If you're looking for a simple single coat without superfluousness. For those who have basic colors that are easy to match.",
     Gallery: [
       outerwearImages.againHandmadeSingleRobeCoat1,
       outerwearImages.againHandmadeSingleRobeCoat2,
@@ -29,7 +30,8 @@ const outerwearData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description:
+      "If you're looking for a casual outerwear that's easy to wear. If you prefer color details. Who likes to wear manic fit. Anyone who has noticed a product that can adjust the fit with the hem string.",
     Gallery: [
       outerwearImages.moodGreenVintageNavyBomberJacket1,
       outerwearImages.moodGreenVintageNavyBomberJacket2,
@@ -46,7 +48,8 @@ const outerwearData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description:
+      "If you're looking for a thin, light shirt and outerwear. If you like a loose fit that covers your body shape. If you like a neat, hidden short piece design. If you prefer fit-adjustable stopper details.",
     Gallery: [
       outerwearImages.windbreakerStringBlouse1,
       outerwearImages.windbreakerStringBlouse2,
@@ -65,7 +68,9 @@ const outerwearData = [
     salesPrice: function () {
       return (this.price - this.price * 0.2).toFixed(2);
     },
-    description: "",
+    description:
+      "If you're looking for an outerwear that's good to wear lightly. Who likes to wear minimalist normcore look. Anyone who likes to wear blue colored items. If you prefer a neat standard fit, rather than a loose fit.",
+
     Gallery: [
       outerwearImages.minimalNormcoreSummerBlouson1,
       outerwearImages.minimalNormcoreSummerBlouson2,
@@ -82,7 +87,8 @@ const outerwearData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description:
+      "Who needed a light outer to wear over a sleeveless shirt. Anyone who wanted a cool summer hoodie. If you prefer a loose fit that covers your body shape softly. Anyone who felt uncomfortable with the texture of the linen. Who likes to wear long sleeves in the summer.",
     Gallery: [
       outerwearImages.thinFitSummerLinenHoodie1,
       outerwearImages.thinFitSummerLinenHoodie2,
@@ -103,7 +109,8 @@ const outerwearData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description:
+      "Anyone looking for a light and cool summer jumper. If you like the rusty washy texture. Someone who likes casual styling. Who likes to wear semi-crops that make your legs look longer. Looking for an outerwear that's easy to wear when you go out or work out.",
     Gallery: [
       outerwearImages.mockSummerDailyBomberJacket1,
       outerwearImages.mockSummerDailyBomberJacket2,
@@ -120,7 +127,8 @@ const outerwearData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description:
+      "If you're looking for a set of cost-effective cardigan. Who likes elastic ribbed fabric. If you prefer a slim fit that sticks lightly to your upper body. Anyone who likes to wear crop length that makes your legs look longer.",
     Gallery: [
       outerwearImages.harvCardiganSleevelessSet1,
       outerwearImages.harvCardiganSleevelessSet2,
@@ -138,7 +146,8 @@ const outerwearData = [
     salesPrice: function () {
       return (this.price - this.price * 0.1).toFixed(2);
     },
-    description: "",
+    description:
+      "If you're looking for a linen cardigan that's cool until the summer. For those who can't give up on long-sleeved knitwear even in the summer. Who likes slim fit clothes that make you look slim. Who likes to wear semi-crops that make their legs look longer.",
     Gallery: [
       outerwearImages.waySlimFitSummerCardigan1,
       outerwearImages.waySlimFitSummerCardigan2,
@@ -157,7 +166,8 @@ const outerwearData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description:
+      "If you need a summer cardigan to wear all the way through the summer. If you like a basic fashionable design. Anyone looking for a loose fit cardigan. If you prefer a V-neck to a round neck.",
     Gallery: [
       outerwearImages.summerVNeckCardigan1,
       outerwearImages.summerVNeckCardigan2,
@@ -175,7 +185,8 @@ const outerwearData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description:
+      "Who found a cost-effective cardigan set. If you prefer pastel colors that are good to accentuate. If you avoid wool blended material because of your sensitive skin.",
     Gallery: [
       outerwearImages.nineCardiganSleevelessSet1,
       outerwearImages.nineCardiganSleevelessSet2,
@@ -192,7 +203,8 @@ const outerwearData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description:
+      "If you're looking for a light and cool summer jacket. Anyone who already has a simple Muji jacket. If you prefer a shoulder pad that's not too much. Who likes neat and neat standard fit.",
     Gallery: [
       outerwearImages.rayStripeHalfJacket1,
       outerwearImages.rayStripeHalfJacket2,
@@ -210,7 +222,8 @@ const outerwearData = [
     salesPrice: function () {
       return (this.price - this.price * 0.15).toFixed(2);
     },
-    description: "",
+    description:
+      "If you're looking for a light and cool summer jacket. If you prefer a light shoulder pad. If you like a basic design that's not trendy. Who likes to wear semi-crops that make your legs look longer.",
     Gallery: [
       outerwearImages.rittenSummerLinenJacket1,
       outerwearImages.rittenSummerLinenJacket2,
@@ -228,7 +241,8 @@ const outerwearData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description:
+      "If you're looking for a summer setup product. For those who felt burdened by excessive shoulder pads. Who likes semi-crops that make your legs look longer. Anyone who felt uncomfortable with the wrinkle of linen.",
     Gallery: [
       outerwearImages.toneOatGreyHalfJacket1,
       outerwearImages.toneOatGreyHalfJacket2,
@@ -247,7 +261,8 @@ const outerwearData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description:
+      "If you're looking for a short trench coat with a cheerful vibe. Who likes a classic double-line design. If you prefer soft fabric to fresh cotton fabric. When choosing an outerwear, those who have the basic color.",
     Gallery: [
       outerwearImages.nortonThinFitShortTrenchCoat1,
       outerwearImages.nortonThinFitShortTrenchCoat2,
