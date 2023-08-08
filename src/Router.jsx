@@ -2,7 +2,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // import App from "./App";
 import Shop from "./pages/Shop";
 import ErrorPage from "./pages/Error";
-import About from "./pages/About";
 import Home from "./pages/Home";
 import { ProductDetail } from "./pages/ProductDetail";
 
@@ -18,10 +17,6 @@ const Router = () => {
       element: <Shop />,
     },
     { path: "/product/:id", element: <ProductDetail /> },
-    {
-      path: "/about",
-      element: <About />,
-    },
     { path: "*", element: <ErrorPage /> },
   ]);
 
