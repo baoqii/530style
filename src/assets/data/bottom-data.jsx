@@ -11,7 +11,9 @@ const bottomData = [
     salesPrice: function () {
       return (this.price - this.price * 0.2).toFixed(2);
     },
-    description: "",
+    description: `Anyone who looked for a calm, medium blue denim.
+    If you prefer high-waist pants that make your legs look longer.
+    If you want stable shorts without worrying about exposure.`,
     Gallery: [
       bottomImages.moveVintageToneDenimShorts1,
       bottomImages.moveVintageToneDenimShorts2,
@@ -29,7 +31,7 @@ const bottomData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `Comfortable and stylish denim half pants.`,
     Gallery: [
       bottomImages.toneDownMediumDenimHalfPants1,
       bottomImages.toneDownMediumDenimHalfPants2,
@@ -47,7 +49,10 @@ const bottomData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `Anyone who found the highlighted washy pants.
+    Anyone who felt uncomfortable with knee-stretching training pants.
+    If you prefer a semi-wide fit that covers the flab of the lower body.
+    For those who enjoy casual styling.`,
     Gallery: [
       bottomImages.aceLongFitSummerTrackPants1,
       bottomImages.aceLongFitSummerTrackPants2,
@@ -64,7 +69,10 @@ const bottomData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `If you're looking for soft denim pants for summer.
+    Who likes vintage medium blue colors.
+    If you prefer subtle details, not too much.
+    Who likes to wear wide fit that covers the flab of the lower body.`,
     Gallery: [
       bottomImages.vintagePintuckWideMediumDenimPants1,
       bottomImages.vintagePintuckWideMediumDenimPants2,
@@ -82,7 +90,8 @@ const bottomData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `Who likes deep raw denim colors.
+    The person who avoided shorts that were too short.`,
     Gallery: [
       bottomImages.pintTightFitSaintDenimShorts1,
       bottomImages.pintTightFitSaintDenimShorts2,
