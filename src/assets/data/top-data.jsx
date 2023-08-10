@@ -11,7 +11,10 @@ const topData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `Who wanted a ribbed T-shirt with a slim silhouette
+    If you prefer slim loose fit over loose fit
+    If you like a half-open neck that's good to style according to your preference
+    Anyone who felt uncomfortable with the texture of the linen`,
     Gallery: [
       topImages.thinFitMilkButtonTShirt1,
       topImages.thinFitMilkButtonTShirt2,
@@ -28,7 +31,10 @@ const topData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `People who like to wear unusual and unique designs
+    The neckline makes your face look slim
+    If you prefer a slim fit that highlights your body line
+    Who likes elastic and comfortable fine corrugated fabric`,
     Gallery: [
       topImages.contouringSquareSlimTShirt1,
       topImages.contouringSquareSlimTShirt2,
@@ -46,7 +52,10 @@ const topData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `If you like a raglan fit with a soft mood
+    If you prefer a soft fabric that flows along your body line
+    If you're looking for a basic and versatile blouse
+    Anyone who likes to wear layered outfits`,
     Gallery: [
       topImages.thinFitSilkyMoodBlouse1,
       topImages.thinFitSilkyMoodBlouse2,
@@ -63,7 +72,10 @@ const topData = [
     salesPrice: function () {
       return (this.price - this.price * 0.2).toFixed(2);
     },
-    description: "",
+    description: `Anyone who saw a cable knit that's nice to accentuate
+    If you prefer a V-neck to a round neck
+    For those who enjoy layered knitwear
+    If you have a lot of simple bottoms`,
     Gallery: [
       topImages.harvardWoolCableKnit1,
       topImages.harvardWoolCableKnit2,
@@ -80,7 +92,10 @@ const topData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `Who likes classic cable patterns
+    Someone who looks slim when the waist fit is set
+    Anyone who wants a light texture like a cotton knit
+    Who likes to wear semi-crops that make your legs look longer`,
     Gallery: [
       topImages.blushSemiCropCableKnit1,
       topImages.blushSemiCropCableKnit2,
@@ -98,7 +113,7 @@ const topData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `Who likes classy, stylish and modern top`,
     Gallery: [
       topImages.denseToughFitVNeckKnitwear1,
       topImages.denseToughFitVNeckKnitwear2,
@@ -116,7 +131,10 @@ const topData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `For those who enjoy layered styling
+    If you like loose-fitting and soft-flowing wrap knitwear
+    Anyone who has a lot of basic cardigans
+    If you want a light touch with cotton mixed spinning`,
     Gallery: [
       topImages.allNightRobeKnitwear1,
       topImages.allNightRobeKnitwear2,
@@ -133,7 +151,9 @@ const topData = [
     salesPrice: function () {
       return (this.price - this.price * 0.1).toFixed(2);
     },
-    description: "",
+    description: `Anyone who found a basic vest regardless of fashion
+    Anyone who likes to wear layered outfits
+    If you have a lot of basic shirts or t-shirts`,
     Gallery: [
       topImages.edenWoolVKnitVest1,
       topImages.edenWoolVKnitVest2,
@@ -150,7 +170,10 @@ const topData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `If you have a lot of basic T-shirts or shirts
+    Anyone who felt frustrated with a neat round neck
+    For those who enjoy layered looks that use the best
+    If you have a lot of basic colors`,
     Gallery: [
       topImages.tantanFitUNeckKnitVest1,
       topImages.tantanFitUNeckKnitVest2,
@@ -168,7 +191,9 @@ const topData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `If you have a lot of basic T-shirts or shirts
+    For those who enjoy layered looks that use the best
+    If you have a lot of basic colors`,
     Gallery: [
       topImages.tantanFitCableKnitVest1,
       topImages.tantanFitCableKnitVest2,
@@ -186,7 +211,10 @@ const topData = [
     salesPrice: function () {
       return (this.price - this.price * 0.15).toFixed(2);
     },
-    description: "",
+    description: `If you need a single sleeveless shirt
+    Those of you who like to wear elastic fine ribbed knitwear
+    Anyone looking for a sleeveless with a stable neckline
+    Anyone who felt uncomfortable with the texture of the linen`,
     Gallery: [
       topImages.earlsBoatNeckKnitSleeveless1,
       topImages.earlsBoatNeckKnitSleeveless2,
@@ -204,7 +232,10 @@ const topData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `If you're looking for a single vest
+    Who likes classic mood cable patterns
+    If the neckline is open to make your face look slim
+    Anyone who felt uncomfortable with the knitted sweater's texture`,
     Gallery: [
       topImages.summerCableKnitVest1,
       topImages.summerCableKnitVest2,

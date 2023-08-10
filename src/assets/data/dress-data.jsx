@@ -11,7 +11,11 @@ const dressData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `If you already have a simple plain dress
+    If you're looking for a dress suitable for formal occasions
+    If you like puff details that bring out the shoulder line
+    If you prefer a dress with a defined waist
+    For those of you who felt burdened by the short mini skirt length of the market`,
     Gallery: [
       dressImages.brownFineCheckDress1,
       dressImages.brownFineCheckDress2,
@@ -30,7 +34,10 @@ const dressData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `Anyone who likes to wear bustier dresses with high utilization
+    If you have a lot of basic shirts or basic shirts
+    Who likes the pleated details of classic moods
+    If you're looking for a dress with adjustable length`,
     Gallery: [
       dressImages.bustierOverallPintuckDress1,
       dressImages.bustierOverallPintuckDress2,
@@ -49,7 +56,10 @@ const dressData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `Who likes thin and light washa fabric
+    Anyone who watched a dress with adjustable length
+    Anyone who likes to wear layered outfits
+    If you're thinking about a summer vacation spot look`,
     Gallery: [
       dressImages.twoWayButtonBustierLongDress1,
       dressImages.twoWayButtonBustierLongDress2,
@@ -67,7 +77,7 @@ const dressData = [
     salesPrice: function () {
       return (this.price - this.price * 0.2).toFixed(2);
     },
-    description: "",
+    description: `Who likes simple, stylish and comfortable clothing`,
     Gallery: [
       dressImages.urbanRawDenimDress1,
       dressImages.urbanRawDenimDress2,
@@ -85,7 +95,10 @@ const dressData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `Who likes to wear light mini skirts 
+    Who likes flares with a soft and fluffy vibe 
+    If you're looking for a daily skirt that's good to coordinate with various styles
+    Who likes to style long boots`,
     Gallery: [
       dressImages.doveFlareLongMiniSkirt1,
       dressImages.doveFlareLongMiniSkirt2,
@@ -103,7 +116,10 @@ const dressData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `If you like bottoms with a set of belts
+    For those of you who felt burdened by the short mini skirt length of the market
+    If you prefer an A-line skirt that covers your thighs
+    Who likes to wear long boots`,
     Gallery: [
       dressImages.daliTantanFitPintuckSkirt1,
       dressImages.daliTantanFitPintuckSkirt2,
@@ -121,7 +137,10 @@ const dressData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `If you always wear underpants when you wear a skirt
+    Who likes plain H-line more than A-line
+    Who likes light miniskirts
+    Anyone who likes vintage dining denim`,
     Gallery: [
       dressImages.pocheBeigeDyingSkirt1,
       dressImages.pocheBeigeDyingSkirt2,
@@ -139,7 +158,10 @@ const dressData = [
     salesPrice: function () {
       return (this.price - this.price * 0.1).toFixed(2);
     },
-    description: "",
+    description: `If you're looking for a light summer setup
+    Who likes to wear light mini length
+    Who likes A-line more than H-line
+    If you prefer a solid fit, rather than a mushy one`,
     Gallery: [
       dressImages.toneOatGreyMiniskirt1,
       dressImages.toneOatGreyMiniskirt2,
@@ -158,7 +180,10 @@ const dressData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `Anyone who likes plain linen
+    Who likes semi-A-line more than H-line
+    If you prefer a mini length that's relatively stable for exposure
+    If you like basic styling`,
     Gallery: [
       dressImages.behindTheScenesLinenSkirt1,
       dressImages.behindTheScenesLinenSkirt2,
@@ -176,7 +201,10 @@ const dressData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `Who likes casual cargo designs
+    If you're looking for a cost-effective item with a belt set
+    Who likes light mini length
+    If you prefer back-banding details that are comfortable to wear for a long time`,
     Gallery: [
       dressImages.beltSetMiniCargoSkirt1,
       dressImages.beltSetMiniCargoSkirt2,
@@ -195,7 +223,10 @@ const dressData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `Who likes non-fade fabrics with little stains
+    If you prefer a semi-A-line fit that hides the flab
+    For those of you who felt burdened by the short skirt length on the market
+    If you prefer a solid cotton material with less slack`,
     Gallery: [
       dressImages.growSolidNaturalDenimSkirt1,
       dressImages.growSolidNaturalDenimSkirt2,
@@ -213,7 +244,10 @@ const dressData = [
     salesPrice: function () {
       return (this.price - this.price * 0.15).toFixed(2);
     },
-    description: "",
+    description: `Anyone who likes a calm stripe pattern
+    If you prefer a neat waistline without banding
+    If you like a flare fit that covers your lower body fat
+    Anyone who has a lot of basic plain shirts or shirts`,
     Gallery: [
       dressImages.mellowStripedHoolSkirt1,
       dressImages.mellowStripedHoolSkirt2,
@@ -231,7 +265,10 @@ const dressData = [
     salesPrice: function () {
       return this.price;
     },
-    description: "",
+    description: `If you like cotton material that's less loose and is thick 
+    Who likes the subtle pin tuck details
+    If you're looking for a long skirt that covers your lower body fat
+    Someone who likes to wear belts`,
     Gallery: [
       dressImages.pikaPinTuckCottonLongSkirt1,
       dressImages.pikaPinTuckCottonLongSkirt2,
