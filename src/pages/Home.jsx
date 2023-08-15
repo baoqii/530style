@@ -52,7 +52,7 @@ const Home = () => {
           <Banner
             image={bannerCarouselImage2}
             title={"Wardrobe Classics You Should Have."}
-            buttonContent={"Browse Collection →"}
+            buttonContent={"Browse Catalog →"}
           />
         </SwiperSlide>
         <SwiperSlide>
