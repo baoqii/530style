@@ -26,7 +26,7 @@ const About = () => {
           est lorem, quis condimentum magna ornare sed. Praesent sem erat,
           fringilla et vulputate in, mattis non lorem.
         </p>
-        <div className="flex justify-between items-center py-2">
+        <div className="flex justify-between items-center py-2 my-6">
           <div className="flex flex-col gap-5 justify-between">
             <div className="counter-wrapper grid grid-cols-3 text-shark-950">
               <div className="flex gap-5 items-center py-4">
