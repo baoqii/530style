@@ -174,8 +174,13 @@ export const ProductDetail = () => {
                 key={i.id}
                 className="first:col-start-2 last:col-end-6"
               >
-                <img src={randomImg(i.Gallery)} />
-                <p>{i.name}</p>
+                <img
+                  src={randomImg(i.Gallery)}
+                  className="w-full object-contain"
+                />
+                <p className="font-robotoMono text-shark-700 text-lg/5 font-normal hover:text-shark-400 my-5 tracking-wide">
+                  {i.name}
+                </p>
               </Link>
             );
           })}
