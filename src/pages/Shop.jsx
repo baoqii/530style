@@ -129,7 +129,7 @@ const ProductCatalog = ({
   return (
     <div>
       {currentCategory === "All" ? (
-        <div className="grid grid-cols-4 gap-8 mx-64">
+        <div className="grid grid-cols-4 gap-8 mx-40">
           {searchText.query === "" ? (
             sortedItems.map((item) => {
               return (
@@ -174,7 +174,7 @@ const ProductCatalog = ({
           .filter((category) => category === currentCategory)
           .map((category) => (
             <section key={category}>
-              <div className="grid grid-cols-4 gap-8 mx-64">
+              <div className="grid grid-cols-4 gap-8 mx-40">
                 {searchText.query === "" ? (
                   sortedItems
                     .filter((item) => item.category === category)
