@@ -61,7 +61,7 @@ export function NavBar() {
           </li>
         </ul>
       </nav>
-      <div className="flex">
+      <div className="flex mr-6">
         <div className="fa-layers fa-fw fa-3x">
           <button
             className="cursor-pointer focus:outline-none outline-none bg-transparent hover:outline-none active:outline-none border-0"
