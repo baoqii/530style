@@ -14,7 +14,7 @@ export const Product = ({ name, price, gallery, onSale, salesPrice }) => {
       </h3>
       {onSale ? (
         <p className="text-shark-950 font-bold text-lg/5 hover:text-shark-700 tracking-wide">
-          $ {salesPrice}{" "}
+          ${salesPrice}{" "}
           <s className="text-gray-400 font-semibold text-sm">${price}</s>
         </p>
       ) : (
