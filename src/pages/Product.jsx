@@ -1,7 +1,36 @@
+import { motion } from "framer-motion";
+
 export const Product = ({ name, price, gallery, onSale, salesPrice }) => {
   const randomImg = gallery[Math.floor(Math.random() * gallery.length)];
+  const itemVariants = {
+    hidden: {
+      opacity: 0,
+      y: 200,
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.5,
+        ease: [0.02, 0.6, 0.01, 0.91],
+      },
+    },
+  };
+
   return (
-    <div className="mb-5 px-10 font-robotoMono">
+    <motion.div
+      variants={itemVariants}
+      layout
+      animate={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
+      exit={{ opactiy: 0 }}
+      transition={{
+        duration: 0.5,
+        type: "tween",
+        ease: [0.02, 0.6, 0.01, 0.91],
+      }}
+      className="mb-5 px-10 font-robotoMono"
+    >
       <div>
         <img
           src={randomImg}
@@ -22,7 +51,7 @@ export const Product = ({ name, price, gallery, onSale, salesPrice }) => {
           ${price}
         </p>
       )}
-    </div>
+    </motion.div>
   );
 };
 

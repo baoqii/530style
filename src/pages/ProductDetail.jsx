@@ -10,6 +10,7 @@ import { CartContext } from "../context/CartContext";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 export const ProductDetail = () => {
   const { id } = useParams();
@@ -50,9 +51,27 @@ export const ProductDetail = () => {
       inStock,
     });
   };
+
+  const content = {
+    initial: { y: -20, opacity: 0 },
+    animate: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 0.7,
+        ease: [0.6, -0.05, 0.01, 0.99],
+      },
+    },
+  };
+
   return (
-    <div>
-      <div className="grid grid-cols-6 gap-6 mt-10 justify-center">
+    <motion.section exit={{ opacity: 0 }}>
+      <motion.div
+        variants={content}
+        animate="animate"
+        initial="initial"
+        className="grid grid-cols-6 gap-6 mt-10 justify-center"
+      >
         <div className="flex mx-auto col-start-2 col-span-2">
           <Swiper
             slidesPerView={3}
@@ -105,7 +124,10 @@ export const ProductDetail = () => {
           </Swiper>
         </div>
 
-        <div className="flex flex-col mx-auto col-start-4 col-span-2">
+        <motion.div
+          variants={content}
+          className="flex flex-col mx-auto col-start-4 col-span-2"
+        >
           {selectedProduct.onSale ? (
             <div className="py-1 text-sm font-bold font-rubik px-3 bg-teak-200 text-teak-800 rounded-none tracking-wide mb-4 w-16 text-center">
               SALE
@@ -160,9 +182,9 @@ export const ProductDetail = () => {
               </li>
             ))}
           </div>
-        </div>
-      </div>
-      <div className="">
+        </motion.div>
+      </motion.div>
+      <div>
         <h2 className="text-shark-800 font-rubik text-2xl text-center font-semibold my-10 underline decoration-teak-400 underline-offset-8 tracking-wide">
           YOU MAY ALSO LIKE
         </h2>
@@ -186,6 +208,6 @@ export const ProductDetail = () => {
           })}
         </div>
       </div>
-    </div>
+    </motion.section>
   );
 };
