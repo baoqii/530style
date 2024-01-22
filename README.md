@@ -12,6 +12,11 @@ https://530style-clothing-store.vercel.app/
 - Quickly find specific products using the intuitive search functionality.
 - Enhance your shopping experience by adding items to the shopping cart for a seamless checkout process.
 
+## Installation 
+- Clone the repository to your local machine
+- Install the required dependencies: npm install
+- Start the development server: npm run dev
+
 ## Roadmap
 - Pagination for catalog
 - Details, Colors, Sizes, Reviews, Adjust Product Quantity for Product Detail
